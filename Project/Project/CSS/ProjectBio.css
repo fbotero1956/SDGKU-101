@@ -1,0 +1,24 @@
+body{
+    font-family: 'Rubik', sans-serif;
+}
+.myh{
+    background-color: aqua;
+    width: 10%;
+}
+h1{
+    style="font-weight: bold; font-size: 42px;"
+}
+.mydiv{
+    background-color: aqua;
+}
+p{
+    font-weight: 400;
+}
+img{
+    float: left;
+    width: 200px;
+    height: 300px;
+}
+address{
+    font-weight: 700;
+}

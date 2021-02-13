@@ -1,0 +1,9 @@
+body{
+    font-family: 'Rubik', sans-serif;
+}
+.header-in{
+    background-image: url(../Img/Hero.jpg);
+    height:600px;
+    background-size: cover;
+    background-position: center center;
+}
