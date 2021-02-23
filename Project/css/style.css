@@ -1,0 +1,138 @@
+/* GLobal */
+html{
+    font-size: 62.5%;
+}
+*{
+    Margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-size: 4.8rem;
+    text-align: center;
+}
+h2{
+    font-size: 4rem;
+}
+h3{
+    font-size: 3.2rem;
+}
+h4{
+    font-size: 2.8rem;
+}
+img{
+    max-width: 100%;
+}
+p{
+    font-size: 1.6rem;
+    line-height: 2;
+}
+/* Utility */
+.center{
+    text-align: center;
+}
+.container{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.btn{
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    margin: 2rem 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+/* Header */
+
+
+.header-container{
+    background-image: url(../images/banner.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+}
+.header-container h1 a{
+    text-decoration: none;
+    color: white;font-weight: 300;
+
+}
+nav{
+    text-align: center;
+    margin: 3rem;
+}
+nav a{
+    display: block;
+    font-size: 2.2rem;
+    color:white;
+    text-decoration: none;
+    margin-bottom: 2rem;
+}
+.header-title{
+    margin-right: 20px;
+}
+.header-title p{
+    font-size: 2rem;
+}
+
+.site-header{
+    padding: 5rem;
+}
+.site-header p{
+    font-size: 2.8rem;
+    margin-top: 1.5rem;
+}
+.btn-read{
+    background-color: black;
+    color: white;
+}
+
+/* footer*/
+.site-footer{
+    background-color: black;
+    margin-top: 4rem;
+    padding: 3rem;
+}
+.site-footer p a{
+    font-size: 4rem;
+    color: white;
+    text-decoration: none;
+}
+/* form styles*/
+
+
+.contact-form{
+    background-color: white;
+    padding: 5rem;
+}
+.contact-form .field{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.contact-form .field label{
+    font-size: 1.6rem;
+    flex: 0 0 8rem;
+}
+.contact-form .field input[type="text"],.contact-form .field input[type="email"],.contact-form .field textarea{
+    border: 1px solid #e1e1e1;
+    padding: 1rem;
+    font-size: 1.6rem;
+    flex: 1;
+}
+.contact-form .field textarea{
+        height: 20rem;
+}
+.contact-form .btn-send{
+    background-color: black;
+    color: white;
+}
+.send{
+    display: flex;
+    justify-content: flex-end;
+}
