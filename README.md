@@ -1,2 +1,2 @@
-# SDGKU-101
-My First Assignment
+# SDGKU- Full Stack Developer Immersion
+
